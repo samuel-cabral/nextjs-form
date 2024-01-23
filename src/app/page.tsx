@@ -1,7 +1,11 @@
+import { Box, Typography } from '@mui/material'
+
 export default function Home() {
   return (
-    <div>
-      <h1>Welcome to Next.js!</h1>
-    </div>
+    <Box display="flex" alignItems="center" justifyContent="center">
+      <Typography variant="h4" component="h1" gutterBottom>
+        Cadastro de pessoas
+      </Typography>
+    </Box>
   )
 }
